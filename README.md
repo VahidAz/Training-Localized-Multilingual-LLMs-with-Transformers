@@ -17,6 +17,7 @@ The first step is to train and merge the tokenizer. We need to augment the base 
 ## Step 2: Modifying the Base LLM Model
 
 Once the tokenizer has been updated to support the new language, we need to modify the base LLM model's embedding and head layers. This modification is required because the vocabulary size has increased due to the additional tokens in the new language. Consequently, the model's layers must be adjusted to accommodate the larger vocabulary.
+- The sample code for **model modification** can be found in [model_modification_new_tokenizer.ipynb](model_modification_new_tokenizer.ipynb).
 
 ## References
 
